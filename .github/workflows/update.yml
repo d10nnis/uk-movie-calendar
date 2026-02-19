@@ -1,8 +1,11 @@
 name: Update UK Movie Calendar
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: "0 6 * * 1"   # Every Monday at 6am
+    - cron: "0 6 * * 1"
   workflow_dispatch:
 
 jobs:
