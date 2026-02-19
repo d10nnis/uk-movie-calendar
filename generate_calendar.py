@@ -9,7 +9,7 @@ soup = BeautifulSoup(response.text, "html.parser")
 
 events = []
 
-# Find all release rows that contain a date + film link
+# Find all rows in the releases table
 for row in soup.select("table tbody tr"):
     date_cell = row.select_one("td")
     title_link = row.select_one("a")
@@ -20,6 +20,7 @@ for row in soup.select("table tbody tr"):
     date_text = date_cell.text.strip()
     title = title_link.text.strip()
 
+    # Parse UK date format: e.g., 30 Jan 2026
     try:
         date_obj = datetime.strptime(date_text, "%d %b %Y")
         date_str = date_obj.strftime("%Y%m%d")
