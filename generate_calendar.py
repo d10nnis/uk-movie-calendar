@@ -3,14 +3,16 @@ import requests
 from datetime import datetime
 from urllib.parse import urlencode
 
+# Get your TMDB API key from environment variable
 API_KEY = os.getenv("TMDB_API_KEY")
 BASE_URL = "https://api.themoviedb.org/3/discover/movie"
 
 def get_uk_releases(year):
+    """Fetch UK movie releases from TMDB for a given year"""
     movies = []
     params = {
         "api_key": API_KEY,
-        "region": "GB",      # UK region code
+        "region": "GB",      # UK region
         "language": "en-GB",
         "sort_by": "release_date.asc",
         "primary_release_year": year,
@@ -36,6 +38,7 @@ def get_uk_releases(year):
     return movies
 
 def build_ics(movies):
+    """Generate ICS VEVENT strings from list of (date, title) tuples"""
     events = []
     for date_str, title in movies:
         try:
@@ -51,7 +54,6 @@ DTSTART;VALUE=DATE:{dt.strftime('%Y%m%d')}
 SUMMARY:{title} — UK Cinema Release
 END:VEVENT
 """)
-
     return "\n".join(events)
 
 def main():
@@ -67,6 +69,7 @@ END:VCALENDAR"""
 
     with open("uk-2026.ics", "w", encoding="utf-8") as f:
         f.write(ics_content)
+    print(f"ICS file generated with {len(releases)} movies.")
 
 if __name__ == "__main__":
     main()
