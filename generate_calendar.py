@@ -7,6 +7,9 @@ URL = "https://www.filmdates.co.uk/films/year/2026/"
 response = requests.get(URL)
 soup = BeautifulSoup(response.text, "html.parser")
 
+print("Status:", response.status_code)
+print("Rows found:", len(soup.select("table tbody tr")))
+
 events = []
 
 # Find all rows in the releases table
