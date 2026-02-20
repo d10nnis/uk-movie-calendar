@@ -69,6 +69,7 @@ END:VCALENDAR"""
 
     with open("uk-2026.ics", "w", encoding="utf-8") as f:
         f.write(ics_content)
+
     print(f"ICS file generated with {len(releases)} movies.")
 
 if __name__ == "__main__":
