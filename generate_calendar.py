@@ -6,10 +6,10 @@ from urllib.parse import urlencode
 API_KEY = os.getenv("TMDB_API_KEY")
 BASE_URL = "https://api.themoviedb.org/3/discover/movie"
 
-def get_uk_releases(year, month=None, min_popularity=20, min_votes=50):
+def get_uk_releases(year, month=None):
     """
-    Fetch UK movie releases from TMDB for a given year (and optional month),
-    filtering by popularity and vote count.
+    Fetch all UK movie releases from TMDB for a given month.
+    No popularity/vote filtering in the API call.
     """
     movies = []
     params = {
@@ -22,7 +22,6 @@ def get_uk_releases(year, month=None, min_popularity=20, min_votes=50):
     }
 
     if month:
-        # Filter to the specific month
         params["primary_release_date.gte"] = f"{year}-{month:02d}-01"
         params["primary_release_date.lte"] = f"{year}-{month:02d}-31"
 
@@ -36,10 +35,8 @@ def get_uk_releases(year, month=None, min_popularity=20, min_votes=50):
             release_date = movie.get("release_date")
             popularity = movie.get("popularity", 0)
             vote_count = movie.get("vote_count", 0)
-
-            # Keep only “major” releases
-            if release_date and popularity >= min_popularity and vote_count >= min_votes:
-                movies.append((release_date, title))
+            if release_date:
+                movies.append((release_date, title, popularity, vote_count))
 
         if data["page"] >= data["total_pages"]:
             break
@@ -47,8 +44,16 @@ def get_uk_releases(year, month=None, min_popularity=20, min_votes=50):
 
     return movies
 
+def select_top_releases(monthly_movies, top_n=5):
+    """
+    Post-filter the monthly releases:
+    - Sort by popularity
+    - Keep top N releases
+    """
+    sorted_movies = sorted(monthly_movies, key=lambda x: x[2], reverse=True)
+    return [(date, title) for date, title, _, _ in sorted_movies[:top_n]]
+
 def build_ics(movies):
-    """Generate ICS VEVENT strings from a list of (date, title) tuples"""
     events = []
     for date_str, title in movies:
         try:
@@ -69,20 +74,20 @@ END:VEVENT
 def main():
     all_releases = []
 
-    # Fetch month by month to cover all 12 months
     for month in range(1, 13):
-        monthly_releases = get_uk_releases(2026, month=month, min_popularity=20, min_votes=50)
-        print(f"Month {month:02d}: {len(monthly_releases)} major releases")
-        all_releases.extend(monthly_releases)
+        monthly_movies = get_uk_releases(2026, month=month)
+        top_releases = select_top_releases(monthly_movies, top_n=5)
+        print(f"Month {month:02d}: {len(top_releases)} top releases")
+        all_releases.extend(top_releases)
 
-    # Sort by release date
+    # Sort all releases by date
     all_releases.sort(key=lambda x: x[0])
 
     calendar_body = build_ics(all_releases)
 
     ics_content = f"""BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//UK Major Movie Releases 2026//EN
+PRODID:-//UK Top Movie Releases 2026//EN
 CALSCALE:GREGORIAN
 {calendar_body}
 END:VCALENDAR"""
@@ -90,7 +95,7 @@ END:VCALENDAR"""
     with open("uk-2026.ics", "w", encoding="utf-8") as f:
         f.write(ics_content)
 
-    print(f"ICS file generated with {len(all_releases)} major releases.")
+    print(f"ICS file generated with {len(all_releases)} releases for 2026.")
 
 if __name__ == "__main__":
     main()
