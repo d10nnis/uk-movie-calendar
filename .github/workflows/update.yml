@@ -34,4 +34,5 @@ jobs:
           git config user.name "GitHub Action"
           git add uk-2026.ics
           git diff-index --quiet HEAD || git commit -m "Auto update UK 2026 releases"
-          git push
+          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/d10nnis/uk-movie-calendar.git HEAD:main
+
