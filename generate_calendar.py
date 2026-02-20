@@ -4,26 +4,26 @@ from bs4 import BeautifulSoup
 
 URL = "https://www.filmdates.co.uk/films/year/2026/"
 
-response = requests.get(URL)
-soup = BeautifulSoup(response.text, "html.parser")
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
 
-print("Status:", response.status_code)
-print("Rows found:", len(soup.select("table tbody tr")))
+response = requests.get(URL, headers=headers)
+soup = BeautifulSoup(response.text, "html.parser")
 
 events = []
 
-# Find all rows in the releases table
-for row in soup.select("table tbody tr"):
-    date_cell = row.select_one("td")
-    title_link = row.select_one("a")
+# Each release is inside an <li> under the release list
+for item in soup.select("li.film"):
+    title_tag = item.select_one("h3 a")
+    date_tag = item.select_one("span.release-date")
 
-    if not date_cell or not title_link:
+    if not title_tag or not date_tag:
         continue
 
-    date_text = date_cell.text.strip()
-    title = title_link.text.strip()
+    title = title_tag.text.strip()
+    date_text = date_tag.text.strip()
 
-    # Parse UK date format: e.g., 30 Jan 2026
     try:
         date_obj = datetime.strptime(date_text, "%d %b %Y")
         date_str = date_obj.strftime("%Y%m%d")
