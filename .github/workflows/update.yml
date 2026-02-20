@@ -25,9 +25,9 @@ jobs:
 
       # Step 3: Install dependencies
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests python-dateutil
 
-      # Step 4: Generate full-year calendar
+      # Step 4: Generate rolling 12-month calendar
       - name: Generate calendar
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
-          git add uk-2026.ics
-          git diff-index --quiet HEAD || git commit -m "Auto update UK 2026 top releases"
+          git add uk-next12months.ics
+          git diff-index --quiet HEAD || git commit -m "Auto update UK top releases (rolling 12 months)"
           git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/d10nnis/uk-movie-calendar.git HEAD:main
