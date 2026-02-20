@@ -54,6 +54,10 @@ def select_top_releases(monthly_movies, top_n=5):
     return [(date, title) for date, title, _, _ in sorted_movies[:top_n]]
 
 def build_ics(movies):
+    """
+    Generate ICS VEVENT strings from a list of (date, title) tuples
+    with SUMMARY containing only the movie title.
+    """
     events = []
     for date_str, title in movies:
         try:
@@ -66,7 +70,7 @@ def build_ics(movies):
             f"""BEGIN:VEVENT
 UID:{uid}
 DTSTART;VALUE=DATE:{dt.strftime('%Y%m%d')}
-SUMMARY:{title} — UK Cinema Release
+SUMMARY:{title}
 END:VEVENT
 """)
     return "\n".join(events)
