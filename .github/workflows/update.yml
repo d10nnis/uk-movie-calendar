@@ -1,4 +1,4 @@
-name: Update UK Movie Calendar
+name: Update UK Major Movie Calendar
 
 on:
   schedule:
@@ -10,29 +10,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo using PAT
+      # Step 1: Checkout repo using PAT
+      - name: Checkout repo
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.PAT_TOKEN }}
           fetch-depth: 0
 
+      # Step 2: Setup Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: pip install requests
 
+      # Step 4: Generate full-year calendar
       - name: Generate calendar
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python generate_calendar.py
 
+      # Step 5: Commit and push updated .ics
       - name: Commit and push
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
           git add uk-2026.ics
-          git diff-index --quiet HEAD || git commit -m "Auto update UK 2026 releases"
+          git diff-index --quiet HEAD || git commit -m "Auto update UK 2026 major releases"
           git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/d10nnis/uk-movie-calendar.git HEAD:main
