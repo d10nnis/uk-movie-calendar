@@ -3,16 +3,19 @@ import requests
 from datetime import datetime
 from urllib.parse import urlencode
 
-# Get your TMDB API key from environment variable
+# TMDB API key from environment variable
 API_KEY = os.getenv("TMDB_API_KEY")
 BASE_URL = "https://api.themoviedb.org/3/discover/movie"
 
-def get_uk_releases(year):
-    """Fetch UK movie releases from TMDB for a given year"""
+def get_uk_releases(year, min_popularity=20, min_votes=50):
+    """
+    Fetch UK movie releases for a given year, filtering by popularity and vote count.
+    Only movies with popularity >= min_popularity and votes >= min_votes are included.
+    """
     movies = []
     params = {
         "api_key": API_KEY,
-        "region": "GB",      # UK region
+        "region": "GB",
         "language": "en-GB",
         "sort_by": "release_date.asc",
         "primary_release_year": year,
@@ -27,18 +30,20 @@ def get_uk_releases(year):
         for movie in data.get("results", []):
             title = movie.get("title")
             release_date = movie.get("release_date")
-            if release_date:
+            popularity = movie.get("popularity", 0)
+            vote_count = movie.get("vote_count", 0)
+
+            if release_date and popularity >= min_popularity and vote_count >= min_votes:
                 movies.append((release_date, title))
 
         if data["page"] >= data["total_pages"]:
             break
-
         params["page"] += 1
 
     return movies
 
 def build_ics(movies):
-    """Generate ICS VEVENT strings from list of (date, title) tuples"""
+    """Generate ICS VEVENT strings from a list of (date, title) tuples"""
     events = []
     for date_str, title in movies:
         try:
@@ -57,12 +62,14 @@ END:VEVENT
     return "\n".join(events)
 
 def main():
-    releases = get_uk_releases(2026)
-    calendar_body = build_ics(releases)
+    # Fetch major UK 2026 releases
+    releases = get_uk_releases(2026, min_popularity=20, min_votes=50)
+    print(f"Generating ICS for {len(releases)} major releases...")
 
+    calendar_body = build_ics(releases)
     ics_content = f"""BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//UK Movie Releases 2026//EN
+PRODID:-//UK Major Movie Releases 2026//EN
 CALSCALE:GREGORIAN
 {calendar_body}
 END:VCALENDAR"""
@@ -70,7 +77,7 @@ END:VCALENDAR"""
     with open("uk-2026.ics", "w", encoding="utf-8") as f:
         f.write(ics_content)
 
-    print(f"ICS file generated with {len(releases)} movies.")
+    print("ICS file generated successfully.")
 
 if __name__ == "__main__":
     main()
