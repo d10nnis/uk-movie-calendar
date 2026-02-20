@@ -1,12 +1,9 @@
 name: Update UK Movie Calendar
 
-permissions:
-  contents: write  # allows pushing updates
-
 on:
   schedule:
-    - cron: "0 6 * * 1"  # every Monday at 6:00 UTC
-  workflow_dispatch:     # manual run
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          persist-credentials: true  # important for git push
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,10 +27,10 @@ jobs:
       - name: Generate calendar
         run: python generate_calendar.py
 
-      - name: Commit and push if changed
+      - name: Commit and push using PAT
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
           git add uk-2026.ics
           git diff-index --quiet HEAD || git commit -m "Auto update UK 2026 movie calendar"
           git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/d10nnis/uk-movie-calendar.git HEAD:main
