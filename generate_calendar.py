@@ -4,17 +4,19 @@ from bs4 import BeautifulSoup
 
 URL = "https://www.filmdates.co.uk/films/year/2026/"
 
-headers = {
-    "User-Agent": "Mozilla/5.0"
-}
+headers = {"User-Agent": "Mozilla/5.0"}
 
 response = requests.get(URL, headers=headers)
+print("Status:", response.status_code)
+
 soup = BeautifulSoup(response.text, "html.parser")
+
+film_items = soup.select("li.film")
+print("Film items found:", len(film_items))
 
 events = []
 
-# Each release is inside an <li> under the release list
-for item in soup.select("li.film"):
+for item in film_items:
     title_tag = item.select_one("h3 a")
     date_tag = item.select_one("span.release-date")
 
@@ -30,23 +32,11 @@ for item in soup.select("li.film"):
     except:
         continue
 
-    uid = f"{date_str}-{title.replace(' ', '').replace(':','')}@ukmovies"
+    events.append(title)
 
-    event = f"""BEGIN:VEVENT
-UID:{uid}
-DTSTART;VALUE=DATE:{date_str}
-SUMMARY:{title} - UK Cinema Release
-END:VEVENT
-"""
-    events.append(event)
-
-calendar = f"""BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//UK Movie Releases 2026//EN
-CALSCALE:GREGORIAN
-{''.join(events)}
-END:VCALENDAR
-"""
+print("Events parsed:", len(events))
 
 with open("uk-2026.ics", "w", encoding="utf-8") as f:
-    f.write(calendar)
+    f.write("TEST FILE")
+
+print("File written.")
