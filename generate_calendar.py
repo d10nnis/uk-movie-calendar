@@ -1,6 +1,7 @@
 import os
 import requests
 from datetime import datetime
+from dateutil.relativedelta import relativedelta
 from urllib.parse import urlencode
 
 API_KEY = os.getenv("TMDB_API_KEY")
@@ -76,30 +77,39 @@ END:VEVENT
     return "\n".join(events)
 
 def main():
+    today = datetime.now()
     all_releases = []
 
-    for month in range(1, 13):
-        monthly_movies = get_uk_releases(2026, month=month)
+    # Generate list of next 12 months
+    months = []
+    for i in range(12):
+        month_date = today + relativedelta(months=i)
+        months.append((month_date.year, month_date.month))
+
+    # Fetch and select top 5 releases per month
+    for year, month in months:
+        monthly_movies = get_uk_releases(year, month=month)
         top_releases = select_top_releases(monthly_movies, top_n=5)
-        print(f"Month {month:02d}: {len(top_releases)} top releases")
+        print(f"{year}-{month:02d}: {len(top_releases)} top releases")
         all_releases.extend(top_releases)
 
     # Sort all releases by date
     all_releases.sort(key=lambda x: x[0])
 
     calendar_body = build_ics(all_releases)
+    ics_filename = "uk-next12months.ics"
 
     ics_content = f"""BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//UK Top Movie Releases 2026//EN
+PRODID:-//UK Top Movie Releases Rolling 12 Months//EN
 CALSCALE:GREGORIAN
 {calendar_body}
 END:VCALENDAR"""
 
-    with open("uk-2026.ics", "w", encoding="utf-8") as f:
+    with open(ics_filename, "w", encoding="utf-8") as f:
         f.write(ics_content)
 
-    print(f"ICS file generated with {len(all_releases)} releases for 2026.")
+    print(f"ICS file generated: {ics_filename} with {len(all_releases)} releases.")
 
 if __name__ == "__main__":
     main()
