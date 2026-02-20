@@ -27,10 +27,14 @@ jobs:
       - name: Generate calendar
         run: python generate_calendar.py
 
+      - name: Debug remote
+        run: git remote -v
+
       - name: Commit and push using PAT
         run: |
-          git config user.email "action@github.com"
-          git config user.name "GitHub Action"
-          git add uk-2026.ics
-          git diff-index --quiet HEAD || git commit -m "Auto update UK 2026 movie calendar"
-          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/d10nnis/uk-movie-calendar.git HEAD:main
+        git config user.email "action@github.com"
+        git config user.name "GitHub Action"
+        git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/d10nnis/uk-movie-calendar.git
+        git add uk-2026.ics
+        git diff-index --quiet HEAD || git commit -m "Auto update UK 2026 movie calendar"
+        git push origin main
