@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout using PAT
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.PAT_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -21,20 +22,15 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4
 
       - name: Generate calendar
         run: python generate_calendar.py
 
-      - name: Debug remote
-        run: git remote -v
-
-      - name: Commit and push using PAT
+      - name: Commit and push
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
-          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/d10nnis/uk-movie-calendar.git
           git add uk-2026.ics
           git diff-index --quiet HEAD || git commit -m "Auto update UK 2026 movie calendar"
-          git push origin main
+          git push
