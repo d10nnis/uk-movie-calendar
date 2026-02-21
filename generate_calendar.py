@@ -8,39 +8,17 @@ API_KEY = os.getenv("TMDB_API_KEY")
 DISCOVER_URL = "https://api.themoviedb.org/3/discover/movie"
 DETAILS_URL = "https://api.themoviedb.org/3/movie"
 
-def escape_text(text):
-    """Escape special ICS characters"""
-    if not text:
-        return ""
-    return text.replace("\\", "\\\\") \
-               .replace(";", "\\;") \
-               .replace(",", "\\,") \
-               .replace("\n", "\\n")
-
-def get_movie_details(movie_id):
-    """Fetch runtime, genres and rating from TMDB movie details endpoint"""
-    url = f"{DETAILS_URL}/{movie_id}"
-    params = {
-        "api_key": API_KEY,
-        "language": "en-GB"
-    }
-    response = requests.get(url, params=params)
-    data = response.json()
-
-    runtime = data.get("runtime")
-    rating = data.get("vote_average")
-    genres = ", ".join([g["name"] for g in data.get("genres", [])])
-
-    return runtime, rating, genres
-
+# -------------------------------------------------
+# Fetch monthly UK releases
+# -------------------------------------------------
 def get_uk_releases(year, month):
     movies = []
+
     params = {
         "api_key": API_KEY,
         "region": "GB",
         "language": "en-GB",
         "sort_by": "release_date.asc",
-        "primary_release_year": year,
         "primary_release_date.gte": f"{year}-{month:02d}-01",
         "primary_release_date.lte": f"{year}-{month:02d}-31",
         "page": 1
@@ -48,8 +26,8 @@ def get_uk_releases(year, month):
 
     while True:
         url = f"{DISCOVER_URL}?{urlencode(params)}"
-        resp = requests.get(url)
-        data = resp.json()
+        response = requests.get(url)
+        data = response.json()
 
         for movie in data.get("results", []):
             if movie.get("release_date"):
@@ -58,30 +36,126 @@ def get_uk_releases(year, month):
                     movie["title"],
                     movie["popularity"],
                     movie["overview"],
-                    movie["id"]
+                    movie["id"],
+                    movie["vote_average"]
                 ))
 
         if data["page"] >= data["total_pages"]:
             break
+
         params["page"] += 1
 
     return movies
 
-def select_top_releases(monthly_movies, top_n=5):
-    return sorted(monthly_movies, key=lambda x: x[2], reverse=True)[:top_n]
 
+# -------------------------------------------------
+# Fetch runtime + genres from movie details
+# -------------------------------------------------
+def get_movie_details(movie_id):
+    url = f"{DETAILS_URL}/{movie_id}?api_key={API_KEY}&language=en-GB"
+    response = requests.get(url)
+    data = response.json()
+
+    runtime = data.get("runtime", 0)
+    genres = ", ".join(g["name"] for g in data.get("genres", []))
+
+    return runtime, genres
+
+
+# -------------------------------------------------
+# Select Top 5 by popularity
+# -------------------------------------------------
+def select_top_releases(monthly_movies, top_n=5):
+    sorted_movies = sorted(monthly_movies, key=lambda x: x[2], reverse=True)
+    return sorted_movies[:top_n]
+
+
+# -------------------------------------------------
+# Escape ICS special characters
+# -------------------------------------------------
+def escape_text(text):
+    if not text:
+        return ""
+    return text.replace("\\", "\\\\") \
+               .replace(";", "\\;") \
+               .replace(",", "\\,") \
+               .replace("\n", "\\n")
+
+
+# -------------------------------------------------
+# Build ICS
+# -------------------------------------------------
 def build_ics(movies):
     events = []
 
-    for release_date, title, _, overview, movie_id in movies:
+    for release_date, title, _, overview, movie_id, rating in movies:
         try:
             dt = datetime.strptime(release_date, "%Y-%m-%d")
         except ValueError:
             continue
 
-        runtime, rating, genres = get_movie_details(movie_id)
+        runtime, genres = get_movie_details(movie_id)
+
+        uid = f"{dt.strftime('%Y%m%d')}-{movie_id}@ukmovies"
 
         description = (
             f"Runtime: {runtime} minutes\n"
             f"Rating: {rating}\n"
             f"Genres: {genres}\n\n"
+            f"{overview}"
+        )
+
+        events.append(
+            "BEGIN:VEVENT\n"
+            f"UID:{uid}\n"
+            f"DTSTART;VALUE=DATE:{dt.strftime('%Y%m%d')}\n"
+            f"SUMMARY:{escape_text(title)}\n"
+            f"DESCRIPTION:{escape_text(description)}\n"
+            "END:VEVENT\n"
+        )
+
+    return "\n".join(events)
+
+
+# -------------------------------------------------
+# Main
+# -------------------------------------------------
+def main():
+    today = datetime.now()
+    all_releases = []
+
+    # Next 12 months rolling
+    for i in range(12):
+        month_date = today + relativedelta(months=i)
+        year = month_date.year
+        month = month_date.month
+
+        monthly_movies = get_uk_releases(year, month)
+        top_releases = select_top_releases(monthly_movies, top_n=5)
+
+        print(f"{year}-{month:02d}: {len(top_releases)} top releases")
+
+        all_releases.extend(top_releases)
+
+    # Sort by release date
+    all_releases.sort(key=lambda x: x[0])
+
+    calendar_body = build_ics(all_releases)
+
+    ics_content = (
+        "BEGIN:VCALENDAR\n"
+        "VERSION:2.0\n"
+        "PRODID:-//UK Top Movie Releases Rolling 12 Months//EN\n"
+        "CALSCALE:GREGORIAN\n"
+        f"{calendar_body}"
+        "END:VCALENDAR"
+    )
+
+    with open("uk-next12months.ics", "w", encoding="utf-8") as f:
+        f.write(ics_content)
+
+    print(f"ICS file generated with {len(all_releases)} releases.")
+
+
+if __name__ == "__main__":
+    main()
