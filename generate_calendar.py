@@ -9,30 +9,6 @@ DISCOVER_URL = "https://api.themoviedb.org/3/discover/movie"
 DETAILS_URL = "https://api.themoviedb.org/3/movie"
 
 # -------------------------------------------------
-# Genre → Emoji mapping
-# -------------------------------------------------
-GENRE_EMOJIS = {
-    "Action": "💥",
-    "Adventure": "🗺️",
-    "Animation": "🧸",
-    "Comedy": "😂",
-    "Crime": "🚔",
-    "Documentary": "🎬",
-    "Drama": "🎭",
-    "Family": "👨‍👩‍👧",
-    "Fantasy": "🧙",
-    "History": "📜",
-    "Horror": "👻",
-    "Music": "🎵",
-    "Mystery": "🕵️",
-    "Romance": "❤️",
-    "Science Fiction": "🚀",
-    "Thriller": "🔥",
-    "War": "⚔️",
-    "Western": "🤠"
-}
-
-# -------------------------------------------------
 # Fetch monthly UK releases
 # -------------------------------------------------
 def get_uk_releases(year, month):
@@ -83,11 +59,7 @@ def get_movie_details(movie_id):
     runtime = data.get("runtime", 0)
 
     genres_list = data.get("genres", [])
-    genre_names = [g["name"] for g in genres_list]
-    genres = ", ".join(genre_names)
-
-    # Add emojis
-    genre_emojis = " ".join(GENRE_EMOJIS.get(name, "") for name in genre_names)
+    genres = ", ".join(g["name"] for g in genres_list)
 
     # Find YouTube trailer
     trailer_url = ""
@@ -97,7 +69,7 @@ def get_movie_details(movie_id):
             trailer_url = f"https://www.youtube.com/watch?v={video['key']}"
             break
 
-    return runtime, genres, genre_emojis, trailer_url
+    return runtime, genres, trailer_url
 
 
 # -------------------------------------------------
@@ -132,16 +104,16 @@ def build_ics(movies):
         except ValueError:
             continue
 
-        runtime, genres, genre_emojis, trailer_url = get_movie_details(movie_id)
+        runtime, genres, trailer_url = get_movie_details(movie_id)
 
         uid = f"{dt.strftime('%Y%m%d')}-{movie_id}@ukmovies"
 
         description = (
             f"Runtime: {runtime} minutes\n"
-            f"Rating: ⭐ {rating}\n"
-            f"Genres: {genre_emojis} {genres}\n\n"
+            f"Rating: {rating}\n"
+            f"Genres: {genres}\n\n"
             f"{overview}\n\n"
-            f"🎥 Trailer: {trailer_url}"
+            f"Trailer: {trailer_url}"
         )
 
         events.append(
