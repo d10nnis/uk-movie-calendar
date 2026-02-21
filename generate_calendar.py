@@ -9,6 +9,30 @@ DISCOVER_URL = "https://api.themoviedb.org/3/discover/movie"
 DETAILS_URL = "https://api.themoviedb.org/3/movie"
 
 # -------------------------------------------------
+# Genre → Emoji mapping
+# -------------------------------------------------
+GENRE_EMOJIS = {
+    "Action": "💥",
+    "Adventure": "🗺️",
+    "Animation": "🧸",
+    "Comedy": "😂",
+    "Crime": "🚔",
+    "Documentary": "🎬",
+    "Drama": "🎭",
+    "Family": "👨‍👩‍👧",
+    "Fantasy": "🧙",
+    "History": "📜",
+    "Horror": "👻",
+    "Music": "🎵",
+    "Mystery": "🕵️",
+    "Romance": "❤️",
+    "Science Fiction": "🚀",
+    "Thriller": "🔥",
+    "War": "⚔️",
+    "Western": "🤠"
+}
+
+# -------------------------------------------------
 # Fetch monthly UK releases
 # -------------------------------------------------
 def get_uk_releases(year, month):
@@ -49,17 +73,31 @@ def get_uk_releases(year, month):
 
 
 # -------------------------------------------------
-# Fetch runtime + genres from movie details
+# Fetch runtime, genres & trailer
 # -------------------------------------------------
 def get_movie_details(movie_id):
-    url = f"{DETAILS_URL}/{movie_id}?api_key={API_KEY}&language=en-GB"
+    url = f"{DETAILS_URL}/{movie_id}?api_key={API_KEY}&language=en-GB&append_to_response=videos"
     response = requests.get(url)
     data = response.json()
 
     runtime = data.get("runtime", 0)
-    genres = ", ".join(g["name"] for g in data.get("genres", []))
 
-    return runtime, genres
+    genres_list = data.get("genres", [])
+    genre_names = [g["name"] for g in genres_list]
+    genres = ", ".join(genre_names)
+
+    # Add emojis
+    genre_emojis = " ".join(GENRE_EMOJIS.get(name, "") for name in genre_names)
+
+    # Find YouTube trailer
+    trailer_url = ""
+    videos = data.get("videos", {}).get("results", [])
+    for video in videos:
+        if video["type"] == "Trailer" and video["site"] == "YouTube":
+            trailer_url = f"https://www.youtube.com/watch?v={video['key']}"
+            break
+
+    return runtime, genres, genre_emojis, trailer_url
 
 
 # -------------------------------------------------
@@ -94,15 +132,16 @@ def build_ics(movies):
         except ValueError:
             continue
 
-        runtime, genres = get_movie_details(movie_id)
+        runtime, genres, genre_emojis, trailer_url = get_movie_details(movie_id)
 
         uid = f"{dt.strftime('%Y%m%d')}-{movie_id}@ukmovies"
 
         description = (
             f"Runtime: {runtime} minutes\n"
-            f"Rating: {rating}\n"
-            f"Genres: {genres}\n\n"
-            f"{overview}"
+            f"Rating: ⭐ {rating}\n"
+            f"Genres: {genre_emojis} {genres}\n\n"
+            f"{overview}\n\n"
+            f"🎥 Trailer: {trailer_url}"
         )
 
         events.append(
@@ -124,7 +163,6 @@ def main():
     today = datetime.now()
     all_releases = []
 
-    # Next 12 months rolling
     for i in range(12):
         month_date = today + relativedelta(months=i)
         year = month_date.year
@@ -137,7 +175,6 @@ def main():
 
         all_releases.extend(top_releases)
 
-    # Sort by release date
     all_releases.sort(key=lambda x: x[0])
 
     calendar_body = build_ics(all_releases)
