@@ -83,17 +83,15 @@ def select_top_releases(monthly_movies, top_n=TOP_N):
     return sorted_movies[:top_n]
 
 # -------------------------------------------------
-# Escape ICS special characters safely
+# Escape ICS special characters for titles and descriptions
 # -------------------------------------------------
 def escape_text(text):
     if not text:
         return ""
-    # Replace backslash first
-    text = text.replace("\\", "\\\\")
-    # Escape semicolons, commas, and colons
-    text = text.replace(";", "\\;").replace(",", "\\,").replace(":", "\\:")
-    # Replace newlines with \n
-    text = text.replace("\n", "\\n")
+    # Only escape backslash, comma, and newlines
+    text = text.replace("\\", "\\\\")  # backslash must be escaped
+    text = text.replace(",", "\\,")    # comma must be escaped
+    text = text.replace("\n", "\\n")   # newlines must be escaped
     # Replace double quotes with single quotes
     text = text.replace('"', "'")
     return text
