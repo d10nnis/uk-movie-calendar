@@ -3,31 +3,31 @@ VERSION:2.0
 PRODID:-//UK Top Movie Releases Rolling 12 Months//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:20260211-1426964@ukmovies
-DTSTART;VALUE=DATE:20260211
-SUMMARY:State of Fear
-DESCRIPTION:Runtime: 103 minutes\nRating: 4.9\nGenres: Action\, Thriller\, Crime\, Drama\n\nAs São Paulo erupts in an unprecedented wave of violence\, a lawyer with underworld ties must strike a deal with the police to rescue her kidnapped niece.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20260212-1317672@ukmovies
 DTSTART;VALUE=DATE:20260212
 SUMMARY:Love Me Love Me
-DESCRIPTION:Runtime: 99 minutes\nRating: 5.768\nGenres: Romance\, Drama\n\nAfter her brother's death\, June moves to Milan for a fresh start\, finding comfort in Will\, the perfect honor student at her new international school. But when his troubled best friend James—hiding a dangerous life in clandestine MMA fights—sparks a rivalry that quickly turns into irresistible attraction\, June must choose between safety and a love that upends everything she thought she wanted.\n\nTrailer: https://www.youtube.com/watch?v=B7prWpweShU
+DESCRIPTION:Runtime: 99 minutes\nRating: 5.8\nGenres: Romance\, Drama\n\nAfter her brother's death\, June moves to Milan for a fresh start\, finding comfort in Will\, the perfect honor student at her new international school. But when his troubled best friend James—hiding a dangerous life in clandestine MMA fights—sparks a rivalry that quickly turns into irresistible attraction\, June must choose between safety and a love that upends everything she thought she wanted.\n\nTrailer: https://www.youtube.com/watch?v=B7prWpweShU
 END:VEVENT
 
 BEGIN:VEVENT
 UID:20260213-1316092@ukmovies
 DTSTART;VALUE=DATE:20260213
 SUMMARY:“Wuthering Heights”
-DESCRIPTION:Runtime: 136 minutes\nRating: 6.622\nGenres: Romance\, Drama\n\nTragedy strikes when Heathcliff falls in love with Catherine Earnshaw\, a woman from a wealthy family in 18th-century England.\n\nTrailer: https://www.youtube.com/watch?v=3fLCdIYShEQ
+DESCRIPTION:Runtime: 136 minutes\nRating: 6.532\nGenres: Romance\, Drama\n\nTragedy strikes when Heathcliff falls in love with Catherine Earnshaw\, a woman from a wealthy family in 18th-century England.\n\nTrailer: https://www.youtube.com/watch?v=3fLCdIYShEQ
 END:VEVENT
 
 BEGIN:VEVENT
 UID:20260213-1297842@ukmovies
 DTSTART;VALUE=DATE:20260213
 SUMMARY:GOAT
-DESCRIPTION:Runtime: 100 minutes\nRating: 7.435\nGenres: Animation\, Comedy\, Family\, Action\n\nWill\, a small goat with big dreams\, gets a once-in-a-lifetime shot to join the pros and play roarball – a high-intensity\, co-ed\, full-contact sport dominated by the fastest\, fiercest animals in the world. Will's new teammates aren't thrilled about having a little goat on their roster\, but Will is determined to revolutionize the sport and prove once and for all that 'smalls can ball'!\n\nTrailer: https://www.youtube.com/watch?v=kmY-rYS7yng
+DESCRIPTION:Runtime: 100 minutes\nRating: 7.3\nGenres: Animation\, Comedy\, Family\, Action\n\nWill\, a small goat with big dreams\, gets a once-in-a-lifetime shot to join the pros and play roarball – a high-intensity\, co-ed\, full-contact sport dominated by the fastest\, fiercest animals in the world. Will's new teammates aren't thrilled about having a little goat on their roster\, but Will is determined to revolutionize the sport and prove once and for all that 'smalls can ball'!\n\nTrailer: https://www.youtube.com/watch?v=kmY-rYS7yng
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260220-1428862@ukmovies
+DTSTART;VALUE=DATE:20260220
+SUMMARY:Firebreak
+DESCRIPTION:Runtime: 107 minutes\nRating: 6.1\nGenres: Thriller\, Drama\n\nLittle Lide disappears in the forest while her family packs up their home. As a fire breaks out\, her mother must race to reach her before the flames do.\n\nTrailer: https://www.youtube.com/watch?v=Bi4zKhBoWxA
 END:VEVENT
 
 BEGIN:VEVENT
@@ -48,7 +48,7 @@ BEGIN:VEVENT
 UID:20260306-875828@ukmovies
 DTSTART;VALUE=DATE:20260306
 SUMMARY:Peaky Blinders: The Immortal Man
-DESCRIPTION:Runtime: 112 minutes\nRating: 0.0\nGenres: Crime\, Drama\n\nBirmingham\, 1940: Amidst the chaos of WWII\, Tommy Shelby is driven back from a self-imposed exile to face his most destructive reckoning yet. With the future of the family and the country at stake\, Tommy must face his own demons\, and choose whether to confront his legacy\, or burn it to the ground.\n\nTrailer: https://www.youtube.com/watch?v=lcvUGs3xaDM
+DESCRIPTION:Runtime: 112 minutes\nRating: 0.0\nGenres: Crime\, Drama\n\nAfter his estranged son gets embroiled in a Nazi plot\, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.\n\nTrailer: https://www.youtube.com/watch?v=lcvUGs3xaDM
 END:VEVENT
 
 BEGIN:VEVENT
@@ -227,6 +227,13 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\n\nA young girl as h
 END:VEVENT
 
 BEGIN:VEVENT
+UID:20261014-1153576@ukmovies
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Street Fighter
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\n\nIn 1993\, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists\, fate\, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't\, it's GAME OVER!\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
 UID:20261016-1255833@ukmovies
 DTSTART;VALUE=DATE:20261016
 SUMMARY:Whalefall
@@ -245,13 +252,6 @@ UID:20261023-791523@ukmovies
 DTSTART;VALUE=DATE:20261023
 SUMMARY:Wildwood
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Animation\, Family\, Fantasy\, Adventure\n\nA girl’s desperate quest to save her baby brother unfolds into a spectacular\, high-stakes adventure through a forbidden forest full of enchanted creatures\, endearing allies\, and formidable adversaries—where an entire hidden realm hangs in the balance.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20261029-1512629@ukmovies
-DTSTART;VALUE=DATE:20261029
-SUMMARY:Biermann
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Documentary\n\nPortrait of the German-German singer-songwriter and intellectual Wolf Biermann\, whose famous Cologne concert in 1976 made German history.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -297,17 +297,17 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Adventure\, Science Fiction
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261223-1300926@ukmovies
-DTSTART;VALUE=DATE:20261223
-SUMMARY:The Angry Birds Movie 3
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Family\, Comedy\, Adventure\, Animation\n\nThe third installment in The Angry Birds Movie franchise. Plot TBA\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20261223-1458035@ukmovies
 DTSTART;VALUE=DATE:20261223
 SUMMARY:Kumaari
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Thriller\n\nAn upcoming thriller.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261223-1300926@ukmovies
+DTSTART;VALUE=DATE:20261223
+SUMMARY:The Angry Birds Movie 3
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Family\, Comedy\, Adventure\, Animation\n\nThe third installment in The Angry Birds Movie franchise. Plot TBA\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -346,10 +346,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Crime\, Thriller\n
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270115-621304@ukmovies
-DTSTART;VALUE=DATE:20270115
-SUMMARY:Children of Blood and Bone
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Fantasy\n\nZelie and her older brother Tzain form an alliance with the king’s daughter\, Princess Amari\, and son\, Prince Inan\, to fight back against his brutal rule.\n\nTrailer: 
+UID:20270122-1235057@ukmovies
+DTSTART;VALUE=DATE:20270122
+SUMMARY:Love and War
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Romance\, Drama\n\nA love story set against the backdrop of a war.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
