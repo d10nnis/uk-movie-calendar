@@ -75,7 +75,7 @@ def get_movie_details(movie_id):
 # -------------------------------------------------
 # Select Top 5 by popularity
 # -------------------------------------------------
-def select_top_releases(monthly_movies, top_n=5):
+def select_top_releases(monthly_movies, top_n=10):
     sorted_movies = sorted(monthly_movies, key=lambda x: x[2], reverse=True)
     return sorted_movies[:top_n]
 
