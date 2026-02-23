@@ -3,31 +3,31 @@ VERSION:2.0
 PRODID:-//UK Top Movie Releases Rolling 12 Months//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:20260212-1317672@ukmovies
-DTSTART;VALUE=DATE:20260212
-SUMMARY:Love Me Love Me
-DESCRIPTION:Runtime: 99 minutes\nRating: 5.8\nGenres: Romance\, Drama\n\nAfter her brother's death\, June moves to Milan for a fresh start\, finding comfort in Will\, the perfect honor student at her new international school. But when his troubled best friend James—hiding a dangerous life in clandestine MMA fights—sparks a rivalry that quickly turns into irresistible attraction\, June must choose between safety and a love that upends everything she thought she wanted.\n\nTrailer: https://www.youtube.com/watch?v=B7prWpweShU
+UID:20260206-1110034@ukmovies
+DTSTART;VALUE=DATE:20260206
+SUMMARY:Kraken
+DESCRIPTION:Runtime: 94 minutes\nRating: 8.0\nGenres: Horror\, Action\, Thriller\n\nMarine biologist Johanne is doing research on a fish farm in Vangsnes\, a rural community located by the fjord\, when she encounters several strange occurrences. Along with the brutal deaths of two local teenagers\, all signs point to the deep fjord; can there be more to the depths than the eye can see? At the bottom of the deepest fjord rests a mythical monster as large as a mountain\, with a myriad of arms ready to crush and devour anything they can grab.\n\nTrailer: https://www.youtube.com/watch?v=EUTatY1-oBI
 END:VEVENT
 
 BEGIN:VEVENT
 UID:20260213-1316092@ukmovies
 DTSTART;VALUE=DATE:20260213
 SUMMARY:“Wuthering Heights”
-DESCRIPTION:Runtime: 136 minutes\nRating: 6.532\nGenres: Romance\, Drama\n\nTragedy strikes when Heathcliff falls in love with Catherine Earnshaw\, a woman from a wealthy family in 18th-century England.\n\nTrailer: https://www.youtube.com/watch?v=3fLCdIYShEQ
+DESCRIPTION:Runtime: 136 minutes\nRating: 6.5\nGenres: Romance\, Drama\n\nTragedy strikes when Heathcliff falls in love with Catherine Earnshaw\, a woman from a wealthy family in 18th-century England.\n\nTrailer: https://www.youtube.com/watch?v=3fLCdIYShEQ
 END:VEVENT
 
 BEGIN:VEVENT
 UID:20260213-1297842@ukmovies
 DTSTART;VALUE=DATE:20260213
 SUMMARY:GOAT
-DESCRIPTION:Runtime: 100 minutes\nRating: 7.3\nGenres: Animation\, Comedy\, Family\, Action\n\nWill\, a small goat with big dreams\, gets a once-in-a-lifetime shot to join the pros and play roarball – a high-intensity\, co-ed\, full-contact sport dominated by the fastest\, fiercest animals in the world. Will's new teammates aren't thrilled about having a little goat on their roster\, but Will is determined to revolutionize the sport and prove once and for all that 'smalls can ball'!\n\nTrailer: https://www.youtube.com/watch?v=kmY-rYS7yng
+DESCRIPTION:Runtime: 100 minutes\nRating: 7.373\nGenres: Animation\, Comedy\, Family\, Action\n\nWill\, a small goat with big dreams\, gets a once-in-a-lifetime shot to join the pros and play roarball – a high-intensity\, co-ed\, full-contact sport dominated by the fastest\, fiercest animals in the world. Will's new teammates aren't thrilled about having a little goat on their roster\, but Will is determined to revolutionize the sport and prove once and for all that 'smalls can ball'!\n\nTrailer: https://www.youtube.com/watch?v=kmY-rYS7yng
 END:VEVENT
 
 BEGIN:VEVENT
 UID:20260220-1428862@ukmovies
 DTSTART;VALUE=DATE:20260220
 SUMMARY:Firebreak
-DESCRIPTION:Runtime: 107 minutes\nRating: 6.1\nGenres: Thriller\, Drama\n\nLittle Lide disappears in the forest while her family packs up their home. As a fire breaks out\, her mother must race to reach her before the flames do.\n\nTrailer: https://www.youtube.com/watch?v=Bi4zKhBoWxA
+DESCRIPTION:Runtime: 107 minutes\nRating: 6.107\nGenres: Thriller\, Drama\n\nLittle Lide disappears in the forest while her family packs up their home. As a fire breaks out\, her mother must race to reach her before the flames do.\n\nTrailer: https://www.youtube.com/watch?v=Bi4zKhBoWxA
 END:VEVENT
 
 BEGIN:VEVENT
@@ -105,6 +105,13 @@ UID:20260520-1228710@ukmovies
 DTSTART;VALUE=DATE:20260520
 SUMMARY:Star Wars: The Mandalorian and Grogu
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Adventure\, Science Fiction\n\nThe evil Empire has fallen\, and Imperial warlords remain scattered throughout the galaxy. As the fledgling New Republic works to protect everything the Rebellion fought for\, they have enlisted the help of legendary Mandalorian bounty hunter Din Djarin and his young apprentice Grogu.\n\nTrailer: https://www.youtube.com/watch?v=IHWlvwu8t1w
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260528-1316427@ukmovies
+DTSTART;VALUE=DATE:20260528
+SUMMARY:7 Dogs
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Comedy\n\nInterpol agent Khalid Al-Azzazi joins forces with Ghali Abu Dawood from the 7 Dogs crime syndicate to fight drug trafficking.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -213,24 +220,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Crime\, Thriller\n
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260909-1318413@ukmovies
-DTSTART;VALUE=DATE:20260909
-SUMMARY:Pressure
-DESCRIPTION:Runtime: 90 minutes\nRating: 0.0\nGenres: Thriller\, History\, War\n\nIn the tense 72 hours before D-Day\, and the fate of the free world hanging in the balance\, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.\n\nTrailer: https://www.youtube.com/watch?v=zdM4tdLQBg0
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20261009-1400837@ukmovies
-DTSTART;VALUE=DATE:20261009
-SUMMARY:Other Mommy
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\n\nA young girl as her family\, and their home\, are haunted by a sinister entity that is determined to take up residence inside her. But first\, it needs to persuade her to let it in…\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20261014-1153576@ukmovies
-DTSTART;VALUE=DATE:20261014
-SUMMARY:Street Fighter
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\n\nIn 1993\, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists\, fate\, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't\, it's GAME OVER!\n\nTrailer: 
+UID:20261015-1378740@ukmovies
+DTSTART;VALUE=DATE:20261015
+SUMMARY:The Housekeeper
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Romance\n\nSet in the mystic\, brooding\, and wild landscape of Cornwall\, the rugged Atlantic foot of England\, Danni\, a housekeeper at Manderville Hall—a grand and historic house owned by the wealthy and widowed Lord DeWithers—falls prey to the glance of a young and beautiful visitor\, the novelist Daphne Du Maurier. For one\, their affair is an all-consuming love\, for the other\, an intoxicating realisation of her secret longings.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -252,6 +245,20 @@ UID:20261023-791523@ukmovies
 DTSTART;VALUE=DATE:20261023
 SUMMARY:Wildwood
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Animation\, Family\, Fantasy\, Adventure\n\nA girl’s desperate quest to save her baby brother unfolds into a spectacular\, high-stakes adventure through a forbidden forest full of enchanted creatures\, endearing allies\, and formidable adversaries—where an entire hidden realm hangs in the balance.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261029-1512629@ukmovies
+DTSTART;VALUE=DATE:20261029
+SUMMARY:Biermann
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Documentary\n\nPortrait of the German-German singer-songwriter and intellectual Wolf Biermann\, whose famous Cologne concert in 1976 made German history.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261202-1260649@ukmovies
+DTSTART;VALUE=DATE:20261202
+SUMMARY:Jumanji 3
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Fantasy\, Adventure\, Comedy\, Action\n\nThe third film in the Jumanji reboot franchise. Plot TBA.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -311,13 +318,6 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Family\, Comedy\, Adventure
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261224-1145110@ukmovies
-DTSTART;VALUE=DATE:20261224
-SUMMARY:King
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Thriller\n\nMentor and disciple embark on a perilous journey\, pushing their survival skills to the limit against overwhelming odds and unforgiving environments.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20270101-1570733@ukmovies
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Vampyr
@@ -339,17 +339,17 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Fantasy\, Family\, Adventur
 END:VEVENT
 
 BEGIN:VEVENT
+UID:20270114-621304@ukmovies
+DTSTART;VALUE=DATE:20270114
+SUMMARY:Children of Blood and Bone
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Fantasy\n\nZelie and her older brother Tzain form an alliance with the king’s daughter\, Princess Amari\, and son\, Prince Inan\, to fight back against his brutal rule.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
 UID:20270115-1440769@ukmovies
 DTSTART;VALUE=DATE:20270115
 SUMMARY:The Beekeeper 2
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Crime\, Thriller\n\nThe second installment in the franchise. Plot TBA.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20270122-1235057@ukmovies
-DTSTART;VALUE=DATE:20270122
-SUMMARY:Love and War
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Romance\, Drama\n\nA love story set against the backdrop of a war.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
