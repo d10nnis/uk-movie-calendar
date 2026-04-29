@@ -12,7 +12,7 @@ DETAILS_URL = "https://api.themoviedb.org/3/movie"
 # -----------------------------
 # CONFIG
 # -----------------------------
-TOP_N = 10  # Top 10 movies per month
+TOP_N = 15  # Top 10 movies per month
 
 # -------------------------------------------------
 # Fetch monthly UK releases
