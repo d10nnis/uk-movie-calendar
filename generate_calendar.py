@@ -25,7 +25,7 @@ def get_uk_releases(year, month):
         "language": "en-GB",
         "sort_by": "release_date.asc",
         "primary_release_date.gte": f"{year}-{month:02d}-01",
-        "primary_release_date.lte": f"{year}-{month:02d}-31",
+        "primary_release_date.lte": f"{year}-{month:02d}-{last_day}",
         "page": 1
     }
 
