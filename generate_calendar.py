@@ -3,6 +3,7 @@ import requests
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from urllib.parse import urlencode
+from calendar import monthrange
 
 API_KEY = os.getenv("TMDB_API_KEY")
 DISCOVER_URL = "https://api.themoviedb.org/3/discover/movie"
