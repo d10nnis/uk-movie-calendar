@@ -12,13 +12,15 @@ DETAILS_URL = "https://api.themoviedb.org/3/movie"
 # -----------------------------
 # CONFIG
 # -----------------------------
-TOP_N = 15  # Top 10 movies per month
+TOP_N = 10  # Top 10 movies per month
 
 # -------------------------------------------------
 # Fetch monthly UK releases
 # -------------------------------------------------
 def get_uk_releases(year, month):
     movies = []
+
+    last_day = monthrange(year, month)[1]  # Get actual last day of the month
 
     params = {
         "api_key": API_KEY,
