@@ -10,17 +10,45 @@ DESCRIPTION:Runtime: 142 minutes\nRating: 0.0\nGenres: Horror\, Drama\n\nAnahita
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260807-1477712@ukmovies
-DTSTART;VALUE=DATE:20260807
+UID:20260803-1740877@ukmovies
+DTSTART;VALUE=DATE:20260803
+SUMMARY:Storm on Sesame Street
+DESCRIPTION:Runtime: 30 minutes\nRating: 0.0\nGenres: Family\, Animation\n\nIn the Storm on Sesame Street special\, Elmo and his friends work together to get ready for a big storm\, learning how to be prepared\, have courage\, and calm their bodies and minds when things feel scary. After the storm passes\, Sesame Street looks different\, and everyone pitches in to help their neighbors rebuild their homes. With the help of the neighborhood\, including celebrity guests Post Malone and Michelle Buteau\, Elmo and Abby set out to make a difference\, and discover that small acts of kindness\, and support from friends\, can make the biggest difference of all.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260804-1477712@ukmovies
+DTSTART;VALUE=DATE:20260804
 SUMMARY:Ice Cream Man
-DESCRIPTION:Runtime: 86 minutes\nRating: 0.0\nGenres: Horror\, Thriller\n\nAn idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.\n\nTrailer: https://www.youtube.com/watch?v=BjtVXWa3tWI
+DESCRIPTION:Runtime: 86 minutes\nRating: 5.306\nGenres: Horror\n\nAn idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.\n\nTrailer: https://www.youtube.com/watch?v=Cgw3zNmFtRo
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260807-1284041@ukmovies
+DTSTART;VALUE=DATE:20260807
+SUMMARY:The Last House
+DESCRIPTION:Runtime: 110 minutes\nRating: 6.696\nGenres: Horror\, Science Fiction\, Thriller\n\nA family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.\n\nTrailer: https://www.youtube.com/watch?v=MLxgaz2Zp1k
 END:VEVENT
 
 BEGIN:VEVENT
 UID:20260807-1479832@ukmovies
 DTSTART;VALUE=DATE:20260807
 SUMMARY:DC
-DESCRIPTION:Runtime: 160 minutes\nRating: 0.0\nGenres: Romance\, Action\, Drama\n\nRebel Devadas joins forces with Chandra in a dangerous world where passion and peril collide. Their turbulent alliance demands bloodshed and tests loyalties as survival becomes the ultimate stake in their fight.\n\nTrailer: 
+DESCRIPTION:Runtime: 141 minutes\nRating: 8.5\nGenres: Romance\, Action\, Drama\n\nRebel Devadas joins forces with Chandra in a dangerous world where passion and peril collide. Their turbulent alliance demands bloodshed and tests loyalties as survival becomes the ultimate stake in their fight.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260808-1391021@ukmovies
+DTSTART;VALUE=DATE:20260808
+SUMMARY:Once Upon a Time in the Middle East
+DESCRIPTION:Runtime: 140 minutes\nRating: 9.0\nGenres: Drama\, War\n\nXu Fu travels to the Middle East to work as a chef in a Chinese restaurant to pay off family debts\, where he meets floor manager Ma Junsheng. Their Dragon Restaurant rises to fame\, attracting crowds with authentic‑tasting Chinese food. But war breaks out\, and local conditions take a drastic turn for the worse. No one can remain unaffected. What lies ahead for them? And how will the Dragon Restaurant hold on amid the war?\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260808-1679730@ukmovies
+DTSTART;VALUE=DATE:20260808
+SUMMARY:THE RIBBON HERO
+DESCRIPTION:Runtime: 112 minutes\nRating: 6.6\nGenres: Animation\, Fantasy\, Drama\, Action\n\nWhen the monstrous Nergal devastates her kingdom\, Princess Sapphire reawakens as the Ribbon Hero and fights to save her new home from the same dark fate.\n\nTrailer: https://www.youtube.com/watch?v=Z56klGz1BPk
 END:VEVENT
 
 BEGIN:VEVENT
@@ -34,42 +62,14 @@ BEGIN:VEVENT
 UID:20260814-1101383@ukmovies
 DTSTART;VALUE=DATE:20260814
 SUMMARY:The End of Oak Street
-DESCRIPTION:Runtime: 100 minutes\nRating: 0.0\nGenres: Science Fiction\, Mystery\, Thriller\n\nAfter a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown\, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.\n\nTrailer: https://www.youtube.com/watch?v=u4tgctWuHc0
+DESCRIPTION:Runtime: 100 minutes\nRating: 7.6\nGenres: Science Fiction\, Mystery\, Thriller\n\nAfter a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown\, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.\n\nTrailer: https://www.youtube.com/watch?v=u4tgctWuHc0
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260814-1408162@ukmovies
-DTSTART;VALUE=DATE:20260814
-SUMMARY:Vishwanath & Sons
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Family\, Drama\, Romance\n\nSanjay Vishwanath is an acclaimed professional handgunner in his 40s with a major stake in fame and wealth. When he comes across a woman named Maddy in her 20s\, their dynamic poses many issues that they must come to terms with.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20260815-1213243@ukmovies
-DTSTART;VALUE=DATE:20260815
-SUMMARY:Toxic
-DESCRIPTION:Runtime: 195 minutes\nRating: 0.0\nGenres: Action\, Thriller\n\nAs Portuguese rule crumbles in Goa\, Raya rises through betrayal and bloodshed to claim the city’s underworld\, only to learn that power always demands a price.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20260821-1288445@ukmovies
+UID:20260821-1240889@ukmovies
 DTSTART;VALUE=DATE:20260821
-SUMMARY:Mutiny
-DESCRIPTION:Runtime: 95 minutes\nRating: 0.0\nGenres: Action\, Thriller\n\nAfter witnessing his billionaire boss' murder and being framed for the crime\, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.\n\nTrailer: https://www.youtube.com/watch?v=2Iqvbe98Gb4
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20260821-1291595@ukmovies
-DTSTART;VALUE=DATE:20260821
-SUMMARY:Insidious: Out of the Further
-DESCRIPTION:Runtime: 106 minutes\nRating: 0.0\nGenres: Horror\, Thriller\n\nGemma\, a young mother raising her daughter in the house she grew up in\, discovers she can travel into The Further\, where she possesses an ability to bring what lives there back to the real world.\n\nTrailer: https://www.youtube.com/watch?v=jxU8FU3o75A
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20260821-1204680@ukmovies
-DTSTART;VALUE=DATE:20260821
-SUMMARY:Coyote vs. Acme
-DESCRIPTION:Runtime: 103 minutes\nRating: 0.0\nGenres: Comedy\, Adventure\, Family\n\nAfter Acme products fail him one too many times in his dogged pursuit of the Roadrunner\, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.\n\nTrailer: https://www.youtube.com/watch?v=kMsiD1Nky5I
+SUMMARY:Teenage Sex and Death at Camp Miasma
+DESCRIPTION:Runtime: 112 minutes\nRating: 7.182\nGenres: Comedy\, Horror\, Romance\n\nAfter years of slapdash sequels and waning fandom\, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original's star\, a now-reclusive actress shrouded in mystery\, the two women fall into a blood-soaked world of desire\, fear\, and delirium.\n\nTrailer: https://www.youtube.com/watch?v=j9TsiTgYZGw
 END:VEVENT
 
 BEGIN:VEVENT
@@ -80,13 +80,6 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Romance\, Drama\n\nRy\, a c
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260903-1284046@ukmovies
-DTSTART;VALUE=DATE:20260903
-SUMMARY:Onslaught
-DESCRIPTION:Runtime: 92 minutes\nRating: 0.0\nGenres: Action\, Horror\, Thriller\n\nWhen a rogue squad of genetically engineered super soldiers break loose in the desert\, a badass Army sniper must unleash hell to protect her young daughter.\n\nTrailer: https://www.youtube.com/watch?v=AMLCbpM1fRQ
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20260909-1101412@ukmovies
 DTSTART;VALUE=DATE:20260909
 SUMMARY:Fall 2: Deadpoint
@@ -94,17 +87,38 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Thriller\n\nOn a perilous c
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260918-1423191@ukmovies
-DTSTART;VALUE=DATE:20260918
-SUMMARY:Resident Evil
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\, Science Fiction\, Thriller\n\nBryan\, a medical courier\, is in the process of making a delivery when a sudden outbreak occurs\, forcing him to fight for survival.\n\nTrailer: https://www.youtube.com/watch?v=mNd1gb19A-c
+UID:20260910-1719380@ukmovies
+DTSTART;VALUE=DATE:20260910
+SUMMARY:No Way Home
+DESCRIPTION:Runtime: 119 minutes\nRating: 0.0\nGenres: Horror\, Adventure\, Action\n\nBehind every secret lies a greater lie. When an unknown entity appears\, reality begins to fracture as long-hidden truths and an ancient conspiracy collide\, revealing a mystery that was never meant to be uncovered.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260918-1377237@ukmovies
-DTSTART;VALUE=DATE:20260918
+UID:20260911-1375441@ukmovies
+DTSTART;VALUE=DATE:20260911
+SUMMARY:Primetime
+DESCRIPTION:Runtime: 110 minutes\nRating: 0.0\nGenres: Crime\, Drama\, Thriller\n\nIn 2006\, To Catch a Predator host Chris Hansen sets out to make television history.\n\nTrailer: https://www.youtube.com/watch?v=5fHXyqQOKL8
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260911-1302904@ukmovies
+DTSTART;VALUE=DATE:20260911
+SUMMARY:Practical Magic 2
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Fantasy\, Drama\, Comedy\n\nThe Owens sisters must confront the dark curse that threatens to unravel their family once and for all.\n\nTrailer: https://www.youtube.com/watch?v=Ho10_4IX1jE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260911-1377237@ukmovies
+DTSTART;VALUE=DATE:20260911
 SUMMARY:Runner
-DESCRIPTION:Runtime: 97 minutes\nRating: 0.0\nGenres: Action\, Comedy\, Thriller\n\nA former soldier and his unlikely partner become the targets of a ruthless cartel while racing to complete a critical medical delivery and save the life of a little girl.\n\nTrailer: https://www.youtube.com/watch?v=m8JUmBgHejI
+DESCRIPTION:Runtime: 97 minutes\nRating: 0.0\nGenres: Action\, Comedy\, Thriller\n\nA former soldier and his unlikely partner become the targets of a ruthless cartel while racing to complete a critical medical delivery and save the life of a little girl.\n\nTrailer: https://www.youtube.com/watch?v=B6Z9MM1LhEA
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260918-1423191@ukmovies
+DTSTART;VALUE=DATE:20260918
+SUMMARY:Resident Evil
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\, Science Fiction\n\nBryan\, a medical courier\, is in the process of making a delivery when a sudden outbreak occurs\, forcing him to fight for survival.\n\nTrailer: https://www.youtube.com/watch?v=mNd1gb19A-c
 END:VEVENT
 
 BEGIN:VEVENT
@@ -115,17 +129,10 @@ DESCRIPTION:Runtime: 101 minutes\nRating: 0.0\nGenres: Action\, Adventure\, Dram
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20260930-1556321@ukmovies
-DTSTART;VALUE=DATE:20260930
-SUMMARY:Death Whisperer: Saming the Werebeast
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\, Thriller\, Action\n\nSet in 1968 in Kanchanaburi\, Thailand\, the story follows Yak\, a soldier from the Black Tiger Division\, sent on an urgent mission into the forest of Khao Khwang to find Thap\, a missing military intelligence officer.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20261002-1248832@ukmovies
 DTSTART;VALUE=DATE:20261002
 SUMMARY:Digger
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Comedy\n\nThe most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.\n\nTrailer: https://www.youtube.com/watch?v=qORTe1wW3Wg
+DESCRIPTION:Runtime: 128 minutes\nRating: 0.0\nGenres: Comedy\n\nThe most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.\n\nTrailer: https://www.youtube.com/watch?v=qORTe1wW3Wg
 END:VEVENT
 
 BEGIN:VEVENT
@@ -139,7 +146,7 @@ BEGIN:VEVENT
 UID:20261009-1400837@ukmovies
 DTSTART;VALUE=DATE:20261009
 SUMMARY:Other Mommy
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\n\nA young girl\, Bela\, forms a relationship with a sinister entity in her home who looks uncannily like her own mother.\n\nTrailer: https://www.youtube.com/watch?v=bEpTgowZ1dI
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\, Mystery\n\nA young girl\, Bela\, forms a relationship with a sinister entity in her home who looks uncannily like her own mother.\n\nTrailer: https://www.youtube.com/watch?v=bEpTgowZ1dI
 END:VEVENT
 
 BEGIN:VEVENT
@@ -147,6 +154,13 @@ UID:20261009-1148365@ukmovies
 DTSTART;VALUE=DATE:20261009
 SUMMARY:Matchbox: The Movie
 DESCRIPTION:Runtime: 127 minutes\nRating: 0.0\nGenres: Action\, Comedy\, Adventure\n\nWhen a group of former childhood friends reconnect\, their reunion takes a wild turn as they stumble upon a dangerous international plot—and must save the world.\n\nTrailer: https://www.youtube.com/watch?v=7xfqITrMDcI
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261009-1443151@ukmovies
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Double Trouble
+DESCRIPTION:Runtime: 88 minutes\nRating: 0.0\nGenres: Action\, Comedy\n\nTwo witty sisters in Vegas get tangled in a holiday heist and join forces with an ex-MI6 guard to outmaneuver a master thief and recover a diamond gauntlet before Christmas.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -164,17 +178,10 @@ DESCRIPTION:Runtime: 125 minutes\nRating: 0.0\nGenres: Action\, Fantasy\n\nIn 19
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261014-848700@ukmovies
-DTSTART;VALUE=DATE:20261014
-SUMMARY:Minotaur
-DESCRIPTION:Runtime: 135 minutes\nRating: 0.0\nGenres: Drama\, Crime\, Thriller\n\nWhen Gleb\, a successful company director\, finds himself under siege from mounting corporate pressures\, an increasingly unstable world\, and the discovery of his wife's affair\, the collapse of his carefully ordered life accelerates toward violence.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20261016-1465063@ukmovies
 DTSTART;VALUE=DATE:20261016
 SUMMARY:Forgotten Island
-DESCRIPTION:Runtime: 109 minutes\nRating: 0.0\nGenres: Adventure\, Animation\, Comedy\, Family\, Fantasy\n\nWhile celebrating their last night together\, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home\, Jo and Raissa will race to find a way to leave the island before they forget each other forever.\n\nTrailer: https://www.youtube.com/watch?v=f7mFVeWnVLw
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Adventure\, Animation\, Comedy\, Family\, Fantasy\n\nWhile celebrating their last night together\, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home\, Jo and Raissa will race to find a way to leave the island before they forget each other forever.\n\nTrailer: https://www.youtube.com/watch?v=f7mFVeWnVLw
 END:VEVENT
 
 BEGIN:VEVENT
@@ -185,17 +192,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\, Thriller\, Science
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261023-1483525@ukmovies
-DTSTART;VALUE=DATE:20261023
-SUMMARY:Possible Love
-DESCRIPTION:Runtime: 165 minutes\nRating: 0.0\nGenres: Drama\n\nA laid-off worker and his wife cross paths with a documentary filmmaker and her spouse and confront their hidden desires.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20261023-791523@ukmovies
 DTSTART;VALUE=DATE:20261023
 SUMMARY:Wildwood
-DESCRIPTION:Runtime: 139 minutes\nRating: 0.0\nGenres: Adventure\, Animation\, Fantasy\, Family\n\nPrue and her classmate Curtis are drawn into a forbidden magical forest filled with enchanted creatures\, loyal allies\, and formidable adversaries as they embark on a desperate quest to save Prue’s kidnapped baby brother\, Mac\, from the crows led by a mysterious woman named Alexandra.\n\nTrailer: https://www.youtube.com/watch?v=POneS8h1jyU
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Adventure\, Animation\, Fantasy\, Family\n\nPrue and her classmate Curtis are drawn into a forbidden magical forest filled with enchanted creatures\, loyal allies\, and formidable adversaries as they embark on a desperate quest to save Prue’s kidnapped baby brother\, Mac\, from the crows led by a mysterious woman named Alexandra.\n\nTrailer: https://www.youtube.com/watch?v=POneS8h1jyU
 END:VEVENT
 
 BEGIN:VEVENT
@@ -213,10 +213,17 @@ DESCRIPTION:Runtime: 105 minutes\nRating: 0.0\nGenres: Romance\, Fantasy\, Comed
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261105-1117898@ukmovies
+UID:20261105-891621@ukmovies
 DTSTART;VALUE=DATE:20261105
-SUMMARY:The Cat in the Hat
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Animation\, Comedy\, Adventure\, Fantasy\, Family\n\nDoing what he does best\, the Cat spreads joy to kids in his hilarious\, signature\, and singularly irreverent way\, transporting them and audiences on a fantastical journey through a world they've never seen before. Our hero takes on his toughest assignment yet for the I.I.I.I. (Institute for the Institution of Imagination and Inspiration\, LLC) to cheer up Gabby and Sebastian\, a pair of siblings struggling to move to a new town. Known for taking things too far\, this could be this agent of chaos' last chance to prove himself...or lose his magical hat!\n\nTrailer: https://www.youtube.com/watch?v=HT5JAp5z0-o
+SUMMARY:Wild Horse Nine
+DESCRIPTION:Runtime: 118 minutes\nRating: 0.0\nGenres: Comedy\, Crime\, Thriller\n\nShortly before the 1973 Chilean coup\, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief\, MJ. Amongst the Island's iconic statues\, and as the longtime partners wrestle with their dark pasts and present conspiracies\, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.\n\nTrailer: https://www.youtube.com/watch?v=Haw_sznA5aQ
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261106-656908@ukmovies
+DTSTART;VALUE=DATE:20261106
+SUMMARY:Ramayana
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, Fantasy\, Action\n\nAn ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love\, duty and destiny sets the stage for greater challenges ahead.\n\nTrailer: https://www.youtube.com/watch?v=le2W_fB_4KY
 END:VEVENT
 
 BEGIN:VEVENT
@@ -224,13 +231,6 @@ UID:20261106-1381071@ukmovies
 DTSTART;VALUE=DATE:20261106
 SUMMARY:Godzilla Minus Zero
 DESCRIPTION:Runtime: 119 minutes\nRating: 0.0\nGenres: Science Fiction\, Horror\, Action\n\nWar reduced Japan to zero\, and Godzilla plunged it into minus. Two years have passed since then\, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace\, a new threat strikes\, crushing hope in an instant.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20261108-656908@ukmovies
-DTSTART;VALUE=DATE:20261108
-SUMMARY:Ramayana
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, Fantasy\, Action\n\nAn ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love\, duty and destiny sets the stage for greater challenges ahead.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -255,6 +255,13 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\n\nChronicles Shantar
 END:VEVENT
 
 BEGIN:VEVENT
+UID:20261118-1131943@ukmovies
+DTSTART;VALUE=DATE:20261118
+SUMMARY:Madden
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, History\n\nChronicles John Madden's incredible journey alongside best friend and true original Al Davis—from a Super Bowl-winning partnership with the Raiders\, to becoming football’s most recognizable voice\, to building the worldwide Madden NFL video game.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
 UID:20261120-1300968@ukmovies
 DTSTART;VALUE=DATE:20261120
 SUMMARY:The Hunger Games: Sunrise on the Reaping
@@ -269,13 +276,6 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Adventure\, Animation\, Fam
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261125-1457866@ukmovies
-DTSTART;VALUE=DATE:20261125
-SUMMARY:The Adventures of Cliff Booth
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, Comedy\, Thriller\n\nEight years after the events of Once Upon a Time in... Hollywood\, Cliff Booth returns to a changing Los Angeles. Now working as a fixer in the shadows of the Hollywood studio system\, Cliff finds himself entangled in a dangerous web of secrets\, crimes and betrayals that will test everything he knows about loyalty and survival.\n\nTrailer: https://www.youtube.com/watch?v=ik0drfECnPo
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20261125-1400336@ukmovies
 DTSTART;VALUE=DATE:20261125
 SUMMARY:Focker-in-Law
@@ -283,24 +283,24 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Comedy\, Romance\n\nHenry\,
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261210-1644597@ukmovies
-DTSTART;VALUE=DATE:20261210
-SUMMARY:Yolki 13
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Comedy\n\n\n\nTrailer: 
+UID:20261201-1608553@ukmovies
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Huemul
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Documentary\, Comedy\n\n\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261211-1408207@ukmovies
+UID:20261204-1078446@ukmovies
+DTSTART;VALUE=DATE:20261204
+SUMMARY:Violent Night 2
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Comedy\, Fantasy\n\nWhen Santa forgets the true meaning of Christmas\, he finds himself in the heart of a lively mall community in desperate need of his help. Sapped of his magic\, he’ll need another way to take on the goons threatening the mall\, and time is running out. Santa has to rediscover his faith in goodness and call in some last-minute reinforcements from the one person no baddie wants to tangle with: Mrs. Claus\n\nTrailer: https://www.youtube.com/watch?v=FmM2giDwLAE
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20261211-1204010@ukmovies
 DTSTART;VALUE=DATE:20261211
-SUMMARY:Zero A.D.
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, Thriller\n\nAn empire in decay. A ruler consumed by fear. A star rising over Bethlehem. When Christ is born\, Herod’s terror erupts into the slaughter of the innocents\, and Mary must protect the child promised to save the world. As violence spreads and hope flickers\, the true battle begins—not for a throne\, but for the soul of mankind.\n\nTrailer: https://www.youtube.com/watch?v=JpZ7y72u-c8
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20261212-1501953@ukmovies
-DTSTART;VALUE=DATE:20261212
-SUMMARY:Marrow
-DESCRIPTION:Runtime: 15 minutes\nRating: 0.0\nGenres: Drama\, Horror\n\nMadison's hopeless lesbian crush on her straight and taken roommate takes a dark turn when she learns of an arcane recipe for a love potion - one that calls for her own bones.\n\nTrailer: 
+SUMMARY:Earth Song
+DESCRIPTION:Runtime: 118 minutes\nRating: 0.0\nGenres: Drama\n\nRojin\, a Kurdish-Finnish woman in Helsinki\, faces upheaval when her father unexpectedly visits\, forcing her to confront her past. Her family life with husband Ferhat and adopted daughter Azad unravels\, revealing a complicated history.\n\nTrailer: https://www.youtube.com/watch?v=35lPEGowSGs
 END:VEVENT
 
 BEGIN:VEVENT
@@ -314,7 +314,7 @@ BEGIN:VEVENT
 UID:20261218-1170608@ukmovies
 DTSTART;VALUE=DATE:20261218
 SUMMARY:Dune: Part Three
-DESCRIPTION:Runtime: 140 minutes\nRating: 0.0\nGenres: Science Fiction\, Adventure\n\nEmperor Paul Atreides faces the fallout from his ascent to power as political plots and a galaxy-wide holy war endanger the future only he can see.\n\nTrailer: https://www.youtube.com/watch?v=NdvqHc56lE0
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Science Fiction\, Adventure\n\nEmperor Paul Atreides faces the fallout from his ascent to power as political plots and a galaxy-wide holy war endanger the future only he can see.\n\nTrailer: https://www.youtube.com/watch?v=NdvqHc56lE0
 END:VEVENT
 
 BEGIN:VEVENT
@@ -325,17 +325,17 @@ DESCRIPTION:Runtime: 96 minutes\nRating: 0.0\nGenres: Animation\, Comedy\, Famil
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261225-1260649@ukmovies
-DTSTART;VALUE=DATE:20261225
-SUMMARY:Jumanji: Open World
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Fantasy\, Adventure\, Comedy\n\nOur heroes have escaped the ever-changing jungles of Jumanji before\, but this time the game comes to us - as Jumanji breaks free of its console\, unleashing its chaos into our world.\n\nTrailer: https://www.youtube.com/watch?v=zhApeaHMvfs
+UID:20261224-1739918@ukmovies
+DTSTART;VALUE=DATE:20261224
+SUMMARY:Anna From Mexico
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Drama\n\nAnna From Mexico Is Upcoming Kannada Movie Directed by Shankar Guru.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20261231-1729162@ukmovies
-DTSTART;VALUE=DATE:20261231
-SUMMARY:Hatchling
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\n\nTwo blacksmiths discover a mysterious egg—and as the egg hatches—they must deal with the monster that comes out from inside.\n\nTrailer: 
+UID:20261225-1260649@ukmovies
+DTSTART;VALUE=DATE:20261225
+SUMMARY:Jumanji: Open World
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Adventure\, Comedy\, Fantasy\n\nOur heroes have escaped the ever-changing jungles of Jumanji before\, but this time the game comes to us - as Jumanji breaks free of its console\, unleashing its chaos into our world.\n\nTrailer: https://www.youtube.com/watch?v=zhApeaHMvfs
 END:VEVENT
 
 BEGIN:VEVENT
@@ -346,10 +346,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\n\nA harrowing tale 
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270101-1619903@ukmovies
+UID:20270101-1511386@ukmovies
 DTSTART;VALUE=DATE:20270101
-SUMMARY:The Unicorn That Said No
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Animation\, Fantasy\, Family\n\nIn the Forest of Hearts\, a little\, sweepity\, swoopity\, swappity\, sweet unicorn is born. But even though everyone is very lilacly-loving to it and constantly feeds it with sweet lucky clover\, the little critter does not behave unicorn-like at all. It just keeps saying no\, so soon its family just calls it uNOcorn. One day\, the uNOcorn breaks out of its cotton candy world and sets off to NOWHERE. On the way\, he unexpectedly meets a raccoon that refuses to listen (HUHcoon)\, a watchdog that doesn‘t seem to care about anything (SOWHATchdog)\, and princess that always talks back (PrinceYES). The four of them make a pretty good team. Because even being stubborn is much more fun together.\n\nTrailer: 
+SUMMARY:The Old Genie
+DESCRIPTION:Runtime: 100 minutes\nRating: 0.0\nGenres: Adventure\, Fantasy\n\nMoscow schoolboy Volodya accidentally fishes out of the Moscow River a mysterious lamp\, from which the genie Khottabych appears. He promises to fulfill any of his wishes\, but each of them turns into unexpected consequences. Magic multiplies\, rather than solves Volodya's problems. Nevertheless\, the schoolboy is imbued with the genie's problems and\, as a result\, finds himself in the past\, where Khottabych's daughter marries an unloved man. Trying to destroy this marriage and free Khottabych\, Volodya and his friends go to an ancient Eastern wedding.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -360,17 +360,24 @@ DESCRIPTION:Runtime: 90 minutes\nRating: 0.0\nGenres: Horror\n\nOn their annual 
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270101-1511386@ukmovies
+UID:20270101-1271661@ukmovies
 DTSTART;VALUE=DATE:20270101
-SUMMARY:The Old Genie
-DESCRIPTION:Runtime: 100 minutes\nRating: 0.0\nGenres: Adventure\, Fantasy\n\nMoscow schoolboy Volodya accidentally fishes out of the Moscow River a mysterious lamp\, from which the genie Khottabych appears. He promises to fulfill any of his wishes\, but each of them turns into unexpected consequences. Magic multiplies\, rather than solves Volodya's problems. Nevertheless\, the schoolboy is imbued with the genie's problems and\, as a result\, finds himself in the past\, where Khottabych's daughter marries an unloved man. Trying to destroy this marriage and free Khottabych\, Volodya and his friends go to an ancient Eastern wedding.\n\nTrailer: 
+SUMMARY:Makiko
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Documentary\n\n\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270101-1505506@ukmovies
+UID:20270101-1619903@ukmovies
 DTSTART;VALUE=DATE:20270101
-SUMMARY:Rocky Wake
-DESCRIPTION:Runtime: 130 minutes\nRating: 0.0\nGenres: Family\, Horror\, Crime\, Drama\n\nElise\, long estranged from her mother Megan\, visits her as she lies on her deathbed. Her mother recounts a life-changing moment from the early 80s\, her father’s devastating diagnosis and a serial killer stalking the town. Elise reconstructs her mother’s memories\, drawing them closer as the night unfolds.\n\nTrailer: 
+SUMMARY:The Unicorn That Said No
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Animation\, Fantasy\, Family\n\nIn the Forest of Hearts\, a little\, sweepity\, swoopity\, swappity\, sweet unicorn is born. But even though everyone is very lilacly-loving to it and constantly feeds it with sweet lucky clover\, the little critter does not behave unicorn-like at all. It just keeps saying no\, so soon its family just calls it uNOcorn. One day\, the uNOcorn breaks out of its cotton candy world and sets off to NOWHERE. On the way\, he unexpectedly meets a raccoon that refuses to listen (HUHcoon)\, a watchdog that doesn‘t seem to care about anything (SOWHATchdog)\, and princess that always talks back (PrinceYES). The four of them make a pretty good team. Because even being stubborn is much more fun together.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20270103-1722923@ukmovies
+DTSTART;VALUE=DATE:20270103
+SUMMARY:OOPART
+DESCRIPTION:Runtime: 18 minutes\nRating: 0.0\nGenres: Horror\, Documentary\n\nIn 2007\, a series of recovered recordings documents the final encounters with beings that could still be distinguished from us.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -402,24 +409,17 @@ DESCRIPTION:Runtime: 105 minutes\nRating: 0.0\nGenres: Music\, Comedy\, Drama\n\
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270115-1618208@ukmovies
-DTSTART;VALUE=DATE:20270115
-SUMMARY:George Krish
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Comedy\n\n\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20270120-1560399@ukmovies
 DTSTART;VALUE=DATE:20270120
-SUMMARY:7:40 ce matin-là
+SUMMARY:Milo
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, Comedy\n\nAfter leaving prison\, Alice takes a job as a waitress in a small cafeteria that sits next to an auto repair garage. She befriends a young man named Milo\, who works at the garage\, and slowly it becomes apparent that Alice's real reason for getting close to him is deeply personal: Milo is her son.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270121-1426809@ukmovies
-DTSTART;VALUE=DATE:20270121
-SUMMARY:Komplizinnen - Vernunft ist keine Lösung
-DESCRIPTION:Runtime: 113 minutes\nRating: 0.0\nGenres: Comedy\n\nAmidst sweating attacks\, sex escapades\, existential fears and the unsuccessful fight against the signs of the times\, four women search for happiness and find themselves.\n\nTrailer: 
+UID:20270122-1518403@ukmovies
+DTSTART;VALUE=DATE:20270122
+SUMMARY:Air Bud Returns
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Family\, Drama\n\n12-year-old Jacob is an aspiring basketball player coping with the recent loss of his father. After he and his mother move to his dad’s childhood home in Fernfield\, Jacob discovers a VHS tape of his old man playing basketball on the same court as a hoops-shooting golden retriever. Soon\, Jacob begins his own adventure with a neglected golden retriever that he names Buddy.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -430,17 +430,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Adventure\, Animation\, Com
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270203-1454106@ukmovies
-DTSTART;VALUE=DATE:20270203
-SUMMARY:Somnambule
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Comedy\n\nAdam is a sleepwalker: as soon as he falls asleep\, his personality completely changes... and he does crazy things. One morning\, upon waking up\, he sees Estelle\, his boss's daughter\, tied up in his bathroom. He has no memory of what happened. Pursued by the police\, he must solve this mystery to avoid ending up in prison.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20270204-1470034@ukmovies
+UID:20270204-1480503@ukmovies
 DTSTART;VALUE=DATE:20270204
-SUMMARY:Oasis
-DESCRIPTION:Runtime: 118 minutes\nRating: 0.0\nGenres: Drama\n\nWhen a viral video of a student threatening his classmates surfaces online\, the school spirals into escalating violence. Crushed by the pressure of teachers and parents\, three outcasts take refuge in a nearby forest. There\, play hardens into ritual and pain becomes an escape\, until old wounds surface and the boundaries between them are redrawn.\n\nTrailer: 
+SUMMARY:CoComelon: The Movie
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Animation\, Family\, Adventure\, Fantasy\, Comedy\n\nJJ embarks on the biggest adventure of his life: Kindergarten. But when\, on his first day at school\, JJ discovers that his beloved stuffed bear Boba has gone missing\, JJ and his friends Cody\, CeCe and Nina will begin a quest that will transport them into a magical land ruled by Princess Harmony\, who has created a world with one rule: No singing.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -451,10 +444,24 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Romance\, Fantasy\, Mystery
 END:VEVENT
 
 BEGIN:VEVENT
+UID:20270204-1470034@ukmovies
+DTSTART;VALUE=DATE:20270204
+SUMMARY:Oasis
+DESCRIPTION:Runtime: 118 minutes\nRating: 0.0\nGenres: Drama\n\nWhen a viral video of a student threatening his classmates surfaces online\, the school spirals into escalating violence. Crushed by the pressure of teachers and parents\, three outcasts take refuge in a nearby forest. There\, play hardens into ritual and pain becomes an escape\, until old wounds surface and the boundaries between them are redrawn.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
 UID:20270210-1012137@ukmovies
 DTSTART;VALUE=DATE:20270210
 SUMMARY:Fantomas: The New World
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Crime\, Thriller\n\nParis\, 1914: Fantomas\, a master of deception and chaos\, is being chased by Lieutenant Juve as he investigates a series of violent crimes that have put the city on edge. In an era of violence and political tensions\, Lieutenant Juve finds himself hunting for a man with no motive\, no agenda\, no pattern or identity.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20270210-1369281@ukmovies
+DTSTART;VALUE=DATE:20270210
+SUMMARY:Under a Bad Star
+DESCRIPTION:Runtime: 125 minutes\nRating: 0.0\nGenres: Drama\n\nScorching heat in a suburban neighborhood in the South of France. It’s the end-of-year party at the local sports club. Birds are falling from their nests\, wildfires are raging\, and Kiki remains under the spell of her Bad Star.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -472,17 +479,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, Thriller\n\nA 'retu
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270225-1362803@ukmovies
+UID:20270225-1397972@ukmovies
 DTSTART;VALUE=DATE:20270225
-SUMMARY:Athos 2643
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Science Fiction\, Drama\n\nIn the distant future\, in a monastery on the lonely Neptune moon of Athos\, a mysterious crime unfolds. An artificial intelligence responsible for life support comes under suspicion of murder. An inquisitor specializing in artificial intelligence is sent to solve this mysterious case.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20270225-1517333@ukmovies
-DTSTART;VALUE=DATE:20270225
-SUMMARY:K-Pop: The Debut
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Music\, Comedy\n\nA young Korean-American woman defies her family's wishes to compete in a televised competition to find the next K-pop girl group.\n\nTrailer: 
+SUMMARY:Panic Carefully
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Thriller\n\nDescribed as a paranoid thriller about a hunt for a cyber-terrorist in the vein of Mr. Robot and The Silence of the Lambs.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -493,6 +493,13 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Animation\, Comedy\, Crime\
 END:VEVENT
 
 BEGIN:VEVENT
+UID:20270303-1510574@ukmovies
+DTSTART;VALUE=DATE:20270303
+SUMMARY:Les princes
+DESCRIPTION:Runtime: 88 minutes\nRating: 0.0\nGenres: Comedy\n\n\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
 UID:20270304-615121@ukmovies
 DTSTART;VALUE=DATE:20270304
 SUMMARY:The Thomas Crown Affair
@@ -500,17 +507,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Crime\, Romance\, Thriller\
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270304-1734472@ukmovies
+UID:20270304-1700679@ukmovies
 DTSTART;VALUE=DATE:20270304
-SUMMARY:Мой немолодой человек
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Comedy\, Romance\n\nSuccessful architect Zhenya has long known how life works. Student Yulia is confident she'll figure it all out. They meet by chance and fall in love at the most inopportune moment. Inopportune because the age difference between them is too large. But is there such a thing as inopportune love? While friends argue\, parents worry\, a psychologist tries to figure things out\, and casual acquaintances eagerly offer unsolicited advice\, the couple must decide whether love is worth the sacrifice of other people's opinions.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20270304-1293313@ukmovies
-DTSTART;VALUE=DATE:20270304
-SUMMARY:Sink Chicken
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Comedy\, Drama\, History\n\nThe 1968 USAID foreign exchange group of South Vietnamese students attempt to adjust to life in a turbulent United States.\n\nTrailer: 
+SUMMARY:Herkunft
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, Comedy\n\n\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -528,10 +528,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Comedy\, Action\, Family\, 
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270312-1297467@ukmovies
-DTSTART;VALUE=DATE:20270312
-SUMMARY:The Exorcist: Martyrs
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\n\nA small-town rookie detective takes on a case involving inconceivable darkness.\n\nTrailer: 
+UID:20270318-458896@ukmovies
+DTSTART;VALUE=DATE:20270318
+SUMMARY:The Nightingale
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, History\, War\n\nThe lives of two French sisters are torn apart by the onset of World War II.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -577,6 +577,13 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Adventure\, Action\, Fantas
 END:VEVENT
 
 BEGIN:VEVENT
+UID:20270408-1263022@ukmovies
+DTSTART;VALUE=DATE:20270408
+SUMMARY:Get Lite
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\, Music\n\nSaunders\, a headstrong Bronx teenager\, is caught between his love of Litefeet subway dancing and his strict's insistence on becoming an engineer.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
 UID:20270408-1361883@ukmovies
 DTSTART;VALUE=DATE:20270408
 SUMMARY:Estranho Amor
@@ -584,17 +591,17 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\n\n\n\nTrailer:
 END:VEVENT
 
 BEGIN:VEVENT
+UID:20270415-1513713@ukmovies
+DTSTART;VALUE=DATE:20270415
+SUMMARY:Veselchak U
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Science Fiction\, Adventure\n\nThe space pirate Veselchak U got stuck on Earth in our time after a run-in with Alice Selezneva\, her mother\, and high school students from a Moscow school. More than anything\, he wants to take over Cosmion\, return to his own time\, and finally lead the Pirate Alliance. His search for the artifact leads him to the boy Yura and his mother Katya\, who are mysteriously connected to Cosmion. And when the powerful space warrior Theo starts hunting for them\, the Merry Man has to stand up for Yura and Katya — after all\, he is a noble pirate. Together they embark on a journey full of dangerous adventures to uncover all the secrets of their past and future.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
 UID:20270422-1731453@ukmovies
 DTSTART;VALUE=DATE:20270422
 SUMMARY:Fencing Teacher
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\n\n\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20270422-556682@ukmovies
-DTSTART;VALUE=DATE:20270422
-SUMMARY:F.A.S.T.
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Thriller\, Action\, Crime\n\nA former special forces commando\, down on his luck after returning Stateside\, is recruited by the DEA to lead a covert black ops team to take down CIA-protected drug dealers.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -609,13 +616,6 @@ UID:20270429-1120556@ukmovies
 DTSTART;VALUE=DATE:20270429
 SUMMARY:Cliffhanger
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Adventure\, Thriller\n\nDuring a weekend trip with a billionaire's son\, seasoned mountaineer Ray Cooper and his daughter Sydney are targeted by a gang of kidnappers. Ray’s other daughter Naomi\, still haunted by a past climbing accident\, witnesses the attack and escapes. To save her family\, she must confront her fears and fight for survival.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20270429-1582304@ukmovies
-DTSTART;VALUE=DATE:20270429
-SUMMARY:Hanna
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: War\, Drama\n\nUSSR\, during the Great Patriotic War. A Russian woman saves a German girl\, Hannah\, who\, thanks to their friendship\, learns to survive and maintain hope.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -640,13 +640,6 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Thriller\, Drama\n\nElias T
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270501-1701407@ukmovies
-DTSTART;VALUE=DATE:20270501
-SUMMARY:Identity V STAGE Episode 7 [Come to the Rescue]
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: \n\nThe seventh instalment in the Identity v Stage Franchise. Plot TBA.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20270506-532652@ukmovies
 DTSTART;VALUE=DATE:20270506
 SUMMARY:The Resurrection of the Christ: Part One
@@ -654,10 +647,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\n\nThe first part of 
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270514-1134437@ukmovies
-DTSTART;VALUE=DATE:20270514
-SUMMARY:Dada - The Sourav Ganguly Story
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\n\nA biopic on former Indian cricket captain Sourav Ganguly.\n\nTrailer: 
+UID:20270513-556682@ukmovies
+DTSTART;VALUE=DATE:20270513
+SUMMARY:F.A.S.T.
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Thriller\, Action\, Crime\n\nA former special forces commando\, down on his luck after returning Stateside\, is recruited by the DEA to lead a covert black ops team to take down CIA-protected drug dealers.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -668,17 +661,24 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\, Mystery\n\nThe eig
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270520-1617050@ukmovies
-DTSTART;VALUE=DATE:20270520
-SUMMARY:Guido
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\n\n\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
 UID:20270520-1138528@ukmovies
 DTSTART;VALUE=DATE:20270520
 SUMMARY:Bad Fairies
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Animation\, Comedy\, Fantasy\n\nAn original musical comedy that follows a delightfully subversive gang of fairies as they shake up their magical world.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20270520-1677482@ukmovies
+DTSTART;VALUE=DATE:20270520
+SUMMARY:Jazz Suave
+DESCRIPTION:Runtime: 60 minutes\nRating: 0.0\nGenres: Music\, Documentary\n\nAmid the frenetic pace of New York City\, a group of young musicians confronts the paradox of pursuing a professional career in the world of jazz while struggling for economic survival. Their experience highlights how\, at times\, artistic life and financial stability appear to follow irreconcilable paths.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20270520-1617050@ukmovies
+DTSTART;VALUE=DATE:20270520
+SUMMARY:Guido
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Drama\n\n\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -710,17 +710,17 @@ DESCRIPTION:Runtime: 92 minutes\nRating: 0.0\nGenres: Drama\, Crime\, Mystery\n\
 END:VEVENT
 
 BEGIN:VEVENT
+UID:20270601-1744615@ukmovies
+DTSTART;VALUE=DATE:20270601
+SUMMARY:How I Killed My Self In 3 Days
+DESCRIPTION:Runtime: 65 minutes\nRating: 0.0\nGenres: \n\nA lonely over-thinker conceives a meticulous plan to tidy his affairs over the course of three days so that he can end his life.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
 UID:20270603-1482214@ukmovies
 DTSTART;VALUE=DATE:20270603
 SUMMARY:Skeletons
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Horror\n\nA young boy slowly begins to discover that his beloved parents are hiding a disturbing secret about his mother’s true nature.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20270604-1150369@ukmovies
-DTSTART;VALUE=DATE:20270604
-SUMMARY:John Rambo
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Action\, Drama\, Thriller\n\nThe origin story of a young John Rambo during the Vietnam War.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -773,10 +773,10 @@ DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Animation\, Comedy\, Fantas
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20270702-1721411@ukmovies
+UID:20270702-1657027@ukmovies
 DTSTART;VALUE=DATE:20270702
-SUMMARY:Allegro
-DESCRIPTION:Runtime: 100 minutes\nRating: 0.0\nGenres: Comedy\, Thriller\, Family\n\nThe story of two detectives in the primary coloured streets of soho.\n\nTrailer: 
+SUMMARY:Karikaala: Chapter 1
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Fantasy\, Adventure\n\n\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -804,7 +804,14 @@ BEGIN:VEVENT
 UID:20270716-1646360@ukmovies
 DTSTART;VALUE=DATE:20270716
 SUMMARY:Fake Skating
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Romance\n\nChildhood best friends Dani and Alec reunite in Minnesota. After a compromising situation\, they start a fake-dating\, slow burn relationship to boost their reputations and navigate high school drama.\n\nTrailer: 
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Romance\, Comedy\n\nChildhood best friends Dani and Alec reunite in Minnesota. After a compromising situation\, they start a fake-dating\, slow burn relationship to boost their reputations and navigate high school drama.\n\nTrailer: 
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20270717-1541895@ukmovies
+DTSTART;VALUE=DATE:20270717
+SUMMARY:L'artiste
+DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Comedy\, Drama\n\n\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
@@ -812,13 +819,6 @@ UID:20270722-1461519@ukmovies
 DTSTART;VALUE=DATE:20270722
 SUMMARY:A Minecraft Movie Squared
 DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: Family\, Fantasy\, Comedy\, Adventure\n\nThe second installment in the franchise. Plot TBA.\n\nTrailer: 
-END:VEVENT
-
-BEGIN:VEVENT
-UID:20270722-1242528@ukmovies
-DTSTART;VALUE=DATE:20270722
-SUMMARY:Lima\, la gris
-DESCRIPTION:Runtime: 0 minutes\nRating: 0.0\nGenres: \n\nWith his 20th birthday just around the corner and the constant fear of not knowing which direction to take in his life\, Lau will reflect with his friends on the cloudy streets of Lima City while figuring out what he will do.\n\nTrailer: 
 END:VEVENT
 
 BEGIN:VEVENT
